@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$("#asignar").validate({
+		rules:{
+			usuario:"required",
+			almacenadora:"required"
+		},
+		messages:{
+			usuario:"",
+			almacenadora:""
+		}
+	});
+});

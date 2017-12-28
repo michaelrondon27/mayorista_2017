@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$("#almacenadora").validate({
+		rules:{
+			nombre:"required",
+			direccion:"required"
+		},
+		messages:{
+			nombre:"",
+			direccion:""
+		}
+	});
+});
